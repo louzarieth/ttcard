@@ -13,16 +13,16 @@
     -->
 
     <!-- Primary Meta Tags -->
-    <title>Labubu Revolution - Join the Movement!</title>
-    <meta name="title" content="Labubu Revolution - Join the Movement!">
-    <meta name="description" content="Labubu is here, bringing a revolution! Get your native NFT utility and convert NFTs to tokens.">
+    <title>PixelBubu | LaunchMyNFT</title>
+    <meta name="title" content="PixelBubu | LaunchMyNFT">
+    <meta name="description" content="A pixel dimension where LABUBUs roam — fully decentralized, built to last, built by LABUBU.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://example.com/">
-    <meta property="og:title" content="Labubu Revolution - Join the Movement!">
+    <meta property="og:title" content="PixelBubu | LaunchMyNFT">
     <!-- 
-      This is the multi-line description that creates the "button" effect.
+      This is the multi-line description that creates the "button" effect in the Twitter Card.
       Use emojis to make the links stand out. 
       IMPORTANT: Make sure these URLs are absolute (start with https://).
     -->
@@ -33,24 +33,24 @@
     ">
     <!-- 
       Replace this with the direct URL to your main image. 
-      Recommended size: 1200x628 pixels.
+      Recommended size: 1200x628 pixels. This image will show up in the Twitter preview.
     -->
-    <meta property="og:image" content="https://placehold.co/1200x628/2d3748/ffffff?text=Your+Awesome+NFT+Image">
+    <meta property="og:image" content="https://placehold.co/1200x628/2a2a2a/ffffff?text=PixelBubu">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://example.com/">
-    <meta property="twitter:title" content="Labubu Revolution - Join the Movement!">
+    <meta property="twitter:title" content="PixelBubu | LaunchMyNFT">
     <meta property="twitter:description" content="
 ✅ Mint in phase Freemint 👉 https://example.com/freemint
 ✅ Mint in phase Contributor for 0 SOL 👉 https://example.com/contributor
 ✅ Mint in phase Public for 0.034 SOL 👉 https://example.com/public
     ">
-    <meta property="twitter:image" content="https://placehold.co/1200x628/2d3748/ffffff?text=Your+Awesome+NFT+Image">
+    <meta property="twitter:image" content="https://placehold.co/1200x628/2a2a2a/ffffff?text=PixelBubu">
 
     <!-- 
     ================================================================================
-    STYLING: Using Tailwind CSS for a clean look.
+    STYLING: Using Tailwind CSS for a clean look inspired by the example.
     ================================================================================
     -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -61,51 +61,74 @@
         body {
             font-family: 'Inter', sans-serif;
         }
+        /* Custom styles inspired by the screenshot */
+        .btn-mint {
+            background-color: #dfff00; /* A vibrant lime/yellow */
+            color: #1a1a1a;
+            font-weight: 700;
+            border-radius: 0.75rem;
+            padding: 1rem 1.5rem;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border: 2px solid #1a1a1a;
+            box-shadow: 0 4px 0 #1a1a1a;
+            transition: all 0.2s ease-in-out;
+        }
+        .btn-mint:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 0 #1a1a1a;
+        }
+        .btn-mint:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px 0 #1a1a1a;
+        }
     </style>
 </head>
-<body class="bg-gray-900 text-white antialiased">
+<body class="bg-gray-900 text-white antialiased flex items-center justify-center min-h-screen p-4">
 
     <!-- Main Container -->
-    <div class="container mx-auto max-w-2xl p-4 sm:p-6 lg:p-8">
-        <div class="bg-gray-800 border border-gray-700 rounded-2xl shadow-lg overflow-hidden">
+    <div class="w-full max-w-md">
+        <div class="bg-[#1c1c1e] border-2 border-[#aeff00] rounded-2xl shadow-lg overflow-hidden p-4 sm:p-6">
             
-            <!-- Header Section -->
-            <div class="p-6 border-b border-gray-700">
-                <h1 class="text-3xl font-bold text-center">Labubu is here, bringing a revolution! 🚨</h1>
-                <div class="mt-4 text-center text-gray-400">
-                    <p class="mb-2">✅ Native NFT utility</p>
-                    <p class="mb-2">✅ Convert NFTs to tokens via the official website</p>
+            <h2 class="text-xl font-semibold text-center text-gray-300 mb-4">Here are the details 👇</h2>
+
+            <!-- Card Content -->
+            <div class="bg-[#e47e43] rounded-xl p-4">
+                <!-- Image Section -->
+                <div class="mb-4">
+                    <img 
+                      src="https://placehold.co/500x500/000000/ffffff?text=Your+Pixel+Art" 
+                      alt="Project Pixel Art" 
+                      class="w-full h-auto rounded-lg object-cover border-2 border-black"
+                      onerror="this.onerror=null;this.src='https://placehold.co/500x500/000000/ffffff?text=Image+Not+Found';"
+                    >
                 </div>
-            </div>
+                
+                <!-- Info Section -->
+                <div class="text-black mb-6">
+                    <p class="font-bold text-lg">PixelBubu</p>
+                    <p class="text-sm">A pixel dimension where LABUBUs roam...</p>
+                    <p class="text-sm font-semibold mt-1">29/2222</p>
+                </div>
 
-            <!-- Image Section -->
-            <div class="p-6">
-                <img 
-                  src="https://placehold.co/1200x628/2d3748/ffffff?text=Your+Awesome+NFT+Image" 
-                  alt="Project Image" 
-                  class="w-full h-auto rounded-xl object-cover border-2 border-gray-700"
-                  onerror="this.onerror=null;this.src='https://placehold.co/600x314/2d3748/ffffff?text=Image+Not+Found';"
-                >
-            </div>
-
-            <!-- Call-to-Action Buttons Section -->
-            <div class="p-6 space-y-4">
-                <h2 class="text-xl font-semibold text-center text-gray-300 mb-4">Here are the details 👇</h2>
-                
-                <!-- Button 1 -->
-                <a href="https://example.com/freemint" class="block w-full text-center bg-green-500 hover:bg-green-600 text-gray-900 font-bold py-4 px-6 rounded-lg transition-transform transform hover:scale-105 duration-300 ease-in-out shadow-md">
-                    Mint in phase Freemint
-                </a>
-                
-                <!-- Button 2 -->
-                <a href="https://example.com/contributor" class="block w-full text-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-4 px-6 rounded-lg transition-transform transform hover:scale-105 duration-300 ease-in-out shadow-md">
-                    Mint in phase Contributor for 0 SOL
-                </a>
-                
-                <!-- Button 3 -->
-                <a href="https://example.com/public" class="block w-full text-center bg-blue-500 hover:bg-blue-600 text-gray-900 font-bold py-4 px-6 rounded-lg transition-transform transform hover:scale-105 duration-300 ease-in-out shadow-md">
-                    Mint in phase Public for 0.034 SOL
-                </a>
+                <!-- Call-to-Action Buttons Section -->
+                <div class="space-y-3">
+                    <!-- Button 1 -->
+                    <a href="https://example.com/freemint" class="block btn-mint">
+                        Mint in phase Freemint | Twitter Giveaway for 0 SOL
+                    </a>
+                    
+                    <!-- Button 2 -->
+                    <a href="https://example.com/contributor" class="block btn-mint">
+                        Mint in phase Contributor for 0 SOL
+                    </a>
+                    
+                    <!-- Button 3 -->
+                    <a href="https://example.com/public" class="block btn-mint">
+                        Mint in phase Public for 0.034 SOL
+                    </a>
+                </div>
             </div>
         </div>
     </div>
